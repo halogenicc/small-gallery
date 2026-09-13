@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painters — Small Gallery</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="painters">
+
+  <header class="site-header">
+    <div class="brand">Small Gallery <small>ROOM 01</small></div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Paintings</a>
+      <a href="painters.html" class="active">Painters</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" style="padding-bottom: 0.5rem;">
+      <div class="section-head">
+        <div>
+          <span class="kicker">The directory</span>
+          <h2>Four painters, four centuries apart</h2>
+        </div>
+        <p>Click a name to open their biography and see the works on display.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="painter-list" id="painter-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>A student project — a small gallery, built for the browser.</span>
+    <span>Images: public-domain works via Wikimedia Commons.</span>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
